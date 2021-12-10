@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://kittishane:chain123@ideashare-52yda.mongodb.net/test?retryWrites=true&w=majority",
+  "mongoURI": "mongodb+srv://kittishane:chain123@cluster0.lvi59.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   "jwtSecret": "iamalwaysangry"
 }

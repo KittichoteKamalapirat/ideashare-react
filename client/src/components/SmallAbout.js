@@ -1,10 +1,10 @@
-import React, { Fragment } from 'react';
+import React, { Fragment } from "react";
 
 const SmallAbout = () => {
   return (
     <Fragment>
-      <div className='small-about'>
-        <h2>What is IDEATOSHARE</h2>
+      <div className="small-about">
+        <h2>What is IdeaX</h2>
         <p>
           We are a community of changemakers, creators, and ideators who want to
           create a better society.

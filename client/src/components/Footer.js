@@ -1,26 +1,26 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-const Footer = props => {
+const Footer = (props) => {
   return (
-    <div className='footer'>
-      <div className='content'>
-        <h1 className='logo'>IDEATOSHARE</h1>
-        <div className='link'>
-          <Link className='link-item' to='/contact'>
+    <div className="footer">
+      <div className="content">
+        <h1 className="logo">IdeaX</h1>
+        <div className="link">
+          <Link className="link-item" to="/contact">
             Contact Us
           </Link>
           {/* <Link className='link-item' to='/about'>
             About
           </Link> */}
-          <Link className='link-item' to='/terms'>
+          <Link className="link-item" to="/terms">
             Terms of Service
           </Link>
-          <Link className='link-item' to='/privacy-policy'>
+          <Link className="link-item" to="/privacy-policy">
             Privacy Policy
           </Link>
         </div>
-        <p id='copyright'>copyright &#9400; 2019 | Orenoo</p>
+        <p id="copyright">copyright &#9400; 2019 | Orenoo</p>
       </div>
     </div>
   );

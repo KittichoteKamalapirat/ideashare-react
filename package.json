@@ -1,13 +1,17 @@
 {
-  "name": "ideashare",
+  "name": "ideax",
   "version": "1.0.0",
   "description": "social network for ideators",
   "main": "server.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node server",
     "server": "nodemon server -e js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "Kittichote Kamalapirat",
   "license": "MIT",
@@ -17,15 +21,15 @@
     "express": "^4.17.1",
     "express-validator": "^5.3.1",
     "googleapis": "^43.0.0",
-    "gravatar": "^1.8.0",
+    "gravatar": "^1.8.2",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.6.9",
-    "nodemailer": "^6.3.0",
+    "mongoose": "^5.13.9",
+    "nodemailer": "^6.6.5",
     "request": "^2.88.0"
   },
   "devDependencies": {
     "concurrently": "^4.1.1",
     "nodemon": "^1.19.1",
-    "reload": "^3.0.1"
+    "reload": "^3.2.0"
   }
 }
