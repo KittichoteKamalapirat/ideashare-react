@@ -1,7 +1,6 @@
 import React, { Fragment, useEffect } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
-import Spinner from "../layout/Spinner";
 import { connect } from "react-redux";
 import DashboardActions from "./DashboardActions";
 import { getCurrentProfile, deleteAccount } from "../../actions/profile";
@@ -21,7 +20,7 @@ const Dashboard = ({
   }, [getCurrentProfile, getPosts]);
 
   return loading && profile === null ? (
-    <Spinner />
+    <p>loading ...</p>
   ) : (
     <Fragment>
       <h1 className="large text-primary">Dashboard</h1>
