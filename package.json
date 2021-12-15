@@ -28,6 +28,7 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
+    "@types/uuid": "^8.3.3",
     "concurrently": "^4.1.1",
     "nodemon": "^1.19.1",
     "reload": "^3.2.0"
